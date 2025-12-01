@@ -8,7 +8,7 @@ import isbr from "../../../public/Assets/images/ClientLogos/isbr.svg"
 
 const WhyEdunoia = () => {
     return (
-        <section className="w-full py-12 md:py-16 lg:py-20">
+        <section className="w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
             <div className="mx-auto container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16">
 
@@ -21,24 +21,18 @@ const WhyEdunoia = () => {
 
                         {/* Sub Heading */}
                         <h2 className="h-blue">
-                            Because education deserves<br/> its own brand language.
+                            Because education deserves<br /> its own brand language.
                         </h2>
                     </div>
-
                     {/* Right Column */}
                     <div className="space-y-6 lg:space-y-8">
                         {/* Description Text */}
-                        <p
-                            className="p-grey"
-                           
-                        >
+                        <p   className="p-grey"  >
                             For 15+ years, ABND has built some of India's most respected educational brands.
                             Edunoia is the next step, designed to help schools, universities, and EdTech
                             players find their voice, sharpen their identity, and stand out with clarity
                             and purpose.
                         </p>
-
-
                         {/* Logos Section with Lines */}
                         <div className="pt-6 lg:pt-8 w-full overflow-hidden">
 

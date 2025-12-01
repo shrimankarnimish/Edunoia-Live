@@ -85,7 +85,7 @@ const About = () => {
                             </button>
                         </div>
                         {/* Right Column - Image/Visual Content */}
-                        <div className="space-y-8 cust-padding-left pb-14 pt-36">
+                        <div className="space-y-8 cust-padding-left pb-20 pt-30">
                             {/* Heading */}
                             <div className="space-y-4">
                                 <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900" style={{ visibility: "hidden" }}>
@@ -157,12 +157,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <Slider/>
-
-
-
-
-
+            <Slider />
         </>
     )
 }

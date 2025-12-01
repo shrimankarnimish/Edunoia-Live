@@ -80,6 +80,25 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
   }
 }
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+/* Pause animation on hover */
+.animate-slide:hover {
+  animation-play-state: paused;
+}
 
 .animate-slide {
   animation: slide 20s linear infinite;
@@ -175,6 +194,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1B51FF;
   margin-bottom: 1rem; 
   margin-top: 50px;
+}
+.box-border-bottom{
+  border-bottom: 2px solid #1B51FF;
+  height: 130px;
 }
 .heading-blue {
   margin-bottom: 0.5rem; /* same as mb-2 */
