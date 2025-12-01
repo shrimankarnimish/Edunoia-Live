@@ -20,12 +20,12 @@ const TailoredModules = () => {
                     {/* Module 1: Edunoia LaunchPad™ */}
                     <div className="bg-[#1a2c5c] text-white p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                     Edunoia LaunchPad™
                                 </h6>
                                 <h4 className="mb-2 italic text-[24px]">90-Day <br />Institution Launch Kit</h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="mb-2 italic text-[20px] text-[#B7B3B3]">
                                 Launch like a top-tier institution in under 90 days.
@@ -44,10 +44,10 @@ const TailoredModules = () => {
                     {/* Module 2: Edunoia Re:Fresh™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
 
                                 <h4 className="heading-blue">Edunoia Re:Fresh™ 90 Days Rebranding  Sprint  </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Reignite your brand before another admissions season passes.
@@ -67,11 +67,11 @@ const TailoredModules = () => {
                     {/* Module 3: Edunoia AdmitEdge™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia AdmitEdge™ Admissions Accelerator 
                                 </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Boost enrollments with a clear, compelling brand story. 
@@ -91,12 +91,12 @@ const TailoredModules = () => {
                     {/* Module 4: Edunoia Connect™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia Connect™ | Alumni & Donor Branding 
                                 </h4>
 
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Turn alumni into lifelong ambassadors and donors. 
@@ -116,11 +116,11 @@ const TailoredModules = () => {
                     {/* Module 5: Edunoia Compass™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia Compass™ |Brand Health Tracker.
                                 </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Measure what truly matters. 
@@ -140,11 +140,11 @@ const TailoredModules = () => {
                     {/* Module 6: Edunoia Recognition Index (ERI)™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h6 className="heading-blue">
                                     Edunoia Recognition Index (ERI)™ 
                                 </h6>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Be recognised as a Great Place to Study.
@@ -164,11 +164,11 @@ const TailoredModules = () => {
                     {/* Module 7: Edunoia FacultyFirst™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia FacultyFirst™ | Faculty Engagement Program
                                 </h4>
-                                <div className="border-line "></div>
+                                {/* <div className="border-line "></div> */}
                             </div>
                             <h6 className="title">
                                 Build a faculty that believes, belongs, and becomes your brand's voice
@@ -188,12 +188,12 @@ const TailoredModules = () => {
                     {/* Module 8: Edunoia Wear™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia Wear™ | Merchandise & Pride Program 
 
                                 </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Turn every student into a walking brand ambassador.
@@ -213,11 +213,11 @@ const TailoredModules = () => {
                     {/* Module 9: Edunoia Legacy™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia Legacy™ | IP Development for Events & Summit
                                 </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Create your own intellectual property.
@@ -237,11 +237,11 @@ const TailoredModules = () => {
                     {/* Module 10: Edunoia Moments™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <div className="mb-3 sm:mb-4">
+                            <div className="mb-3 sm:mb-4 box-border-bottom">
                                 <h4 className="heading-blue">
                                     Edunoia Moments™ | Event Experience Branding 
                                 </h4>
-                                <div className="border-line"></div>
+                                {/* <div className="border-line"></div> */}
                             </div>
                             <h6 className="title">
                                 Make every milestone a brand moment.
@@ -264,13 +264,11 @@ const TailoredModules = () => {
                             <h5 className="text-[30px] text-white font-normal mb-4">
                                 Explore all our<br /> Branding services
                             </h5>
-                            <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
+                            <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3  font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
                                 View Details
                             </button>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>

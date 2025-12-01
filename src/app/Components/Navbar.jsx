@@ -48,7 +48,10 @@ export default function Navbar() {
                         </li>
 
                         <li className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer">WHY EDUNOIA</li>
-                        <li className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer">SERVICES</li>
+                         <Link href="/Services"
+                                className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer" >
+                               SERVICES
+                            </Link>
                         <li className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer">WORK</li>
                         <li className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer">THOUGHT LEADERSHIP</li>
                         <li className="text-white text-[20px] tracking-wide hover:opacity-70 cursor-pointer">CONTACT</li>

@@ -41,7 +41,7 @@ const HeroSection = () => {
                                 START YOUR INSTITUTIONS JOURNEY
                             </button>
 
-                            <button className="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out text-base tracking-wide uppercase cursor-pointer">
+                            <button className="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out tracking-wide uppercase cursor-pointer text-sm sm:text-base">
                                 BOOK A DISCOVERY CALL
                             </button>
 
@@ -68,75 +68,71 @@ const HeroSection = () => {
             {/* WHAT WE DO END */}
 
             <section className="what-we-do-container">
-    <div className="mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-start">
+                <div className="mx-auto">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 items-start">
 
-            {/* LEFT CONTENT */}
-            <div className="space-y-8 cust-padding-left pt-24 pb-24 lg:pt-36 lg:pb-40">
+                        {/* LEFT CONTENT */}
+                        <div className="space-y-8 cust-padding-left pt-24 pb-24 lg:pt-36 lg:pb-40">
 
-                <div className="space-y-3">
-                    <p className="text-[18px] sm:text-[20px] lg:text-2xl font-bold text-gray-900">
-                        WHAT WE DO
-                    </p>
+                            <div className="space-y-3">
+                                <p className="text-[18px] sm:text-[20px] lg:text-2xl font-bold text-gray-900">
+                                    WHAT WE DO
+                                </p>
+                                <h2 className="h-blue responsive-hblue">
+                                    Branding that builds <br />
+                                    credible, relevant, and <br />
+                                    inspiring institutions
+                                </h2>
+                            </div>
+                            <p className="p-grey responsive-pgrey">
+                                We offer end-to-end branding services as well as proprietary tailored
+                                modules specifically developed for the education sector.
+                            </p>
 
-                    <h2 className="h-blue responsive-hblue">
-                        Branding that builds <br />
-                        credible, relevant, and <br />
-                        inspiring institutions
-                    </h2>
+                            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-7 mt-4 text-lg">
+                                VIEW DETAILS
+                            </button>
+                        </div>
+                        {/* RIGHT CONTENT */}
+                        <div
+                            className="space-y-8 cust-padding-left pt-24 pb-24 lg:pt-36 lg:pb-40"
+                            style={{
+                                backgroundImage: `url("/Assets/images/blurBG.jpg")`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                            }}
+                        >
+                            <div className="space-y-3">
+                                <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 invisible">
+                                    WHAT WE DO
+                                </p>
+
+                                <h3 className="text-[28px] sm:text-[32px] lg:text-[40px] text-white font-medium leading-tight">
+                                    Bespoke Brand Consulting
+                                </h3>
+                            </div>
+
+                            <h4 className="text-[18px] sm:text-[20px] lg:text-[24px] text-white italic leading-relaxed">
+                                End-to-end branding solutions, covering everything from research and brand
+                                strategy to verbal and visual identity.
+                            </h4>
+
+                            <div className="h-0.5 w-full" style={{ backgroundColor: "#1B51FF" }} />
+
+                            <ul className="space-y-1 text-white text-[18px] sm:text-[20px] lg:text-[24px] italic leading-snug">
+                                <li>Research, Analysis & Insights</li>
+                                <li>Brand Purpose, Positioning & Strategy</li>
+                                <li>Brand & Portfolio Architecture</li>
+                                <li>Naming & Verbal Identity</li>
+                                <li>Visual Identity</li>
+                                <li>Brand Communication</li>
+                                <li>Brand Experiences</li>
+                                <li>Brand Guidelines & Toolkits</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
-                <p className="p-grey responsive-pgrey">
-                    We offer end-to-end branding services as well as proprietary tailored
-                    modules specifically developed for the education sector.
-                </p>
-
-                <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-7 mt-4 text-lg">
-                    VIEW DETAILS
-                </button>
-            </div>
-
-            {/* RIGHT CONTENT */}
-            <div
-                className="space-y-8 cust-padding-left pt-24 pb-24 lg:pt-36 lg:pb-40"
-                style={{
-                    backgroundImage: `url("/Assets/images/blurBG.jpg")`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                }}
-            >
-                <div className="space-y-3">
-                    <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 invisible">
-                        WHAT WE DO
-                    </p>
-
-                    <h3 className="text-[28px] sm:text-[32px] lg:text-[40px] text-white font-medium leading-tight">
-                        Bespoke Brand Consulting
-                    </h3>
-                </div>
-
-                <h4 className="text-[18px] sm:text-[20px] lg:text-[24px] text-white italic leading-relaxed">
-                    End-to-end branding solutions, covering everything from research and brand
-                    strategy to verbal and visual identity.
-                </h4>
-
-                <div className="h-0.5 w-full" style={{ backgroundColor: "#1B51FF" }} />
-
-                <ul className="space-y-1 text-white text-[18px] sm:text-[20px] lg:text-[24px] italic leading-snug">
-                    <li>Research, Analysis & Insights</li>
-                    <li>Brand Purpose, Positioning & Strategy</li>
-                    <li>Brand & Portfolio Architecture</li>
-                    <li>Naming & Verbal Identity</li>
-                    <li>Visual Identity</li>
-                    <li>Brand Communication</li>
-                    <li>Brand Experiences</li>
-                    <li>Brand Guidelines & Toolkits</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
+            </section>
             <Modules />
             {/* CASE STUDY SECTION */}
             <section className="relative w-full h-screen flex items-center justify-center">
