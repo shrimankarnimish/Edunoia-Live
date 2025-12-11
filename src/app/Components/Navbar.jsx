@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import Logo from "../../../public/Assets/images/Logo.svg";
+import Logo from "../../../public/Assets/images/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -31,6 +31,7 @@ export default function Navbar() {
                         <Link href="/">
                             <Image
                                 src={Logo}
+                                    style={{ height:'50px' }}
                                 alt="Logo"
                                 priority
                                 className="h-8 w-auto md:h-10 object-contain cursor-pointer"

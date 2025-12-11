@@ -19,7 +19,7 @@ export default function WorkPage() {
       Title: "Emversity",
       image: emversity,
       imageHover: emversityhover,
-      link: "/work/growgether",
+      link: "https://abnd.in/work/emversity",
     },
 
     {
@@ -49,7 +49,10 @@ export default function WorkPage() {
   ];
 
   return (
-    <div className="w-full bg-black text-white py-18">
+    <div
+  className="w-full text-white py-18"
+  style={{ backgroundColor: "#002855" }} 
+>
       <div className="container mx-auto">
 
         {/* Heading */}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServiceModules = () => {
+const TailoredModules = () => {
     return (
         <section className="bg-[#002855] py-8 sm:py-12 md:py-16 min-h-screen">
             {/* Grid Section */}
@@ -23,10 +23,9 @@ const ServiceModules = () => {
                     {/* Module 2: Edunoia Re:Fresh™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia LaunchPad™
                             </h6>
-
                             <div className="mb-3 sm:mb-4 ">
 
                                 <h4 className="heading-bluee">90-Day<br /> Institution Launch Kit  </h4>
@@ -50,7 +49,7 @@ const ServiceModules = () => {
                     {/* Module 3: Edunoia AdmitEdge™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Re:Fresh™
                             </h6>
                             <div className="mb-3 sm:mb-4">
@@ -78,7 +77,7 @@ const ServiceModules = () => {
                     {/* Module 4: Edunoia Connect™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                            <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Re:Fresh™
                             </h6>
                             <div className="mb-3 sm:mb-4">
@@ -106,7 +105,7 @@ const ServiceModules = () => {
                     {/* Module 5: Edunoia Compass™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Connect™
                             </h6>
                             <div className="mb-3 sm:mb-4">
@@ -133,7 +132,7 @@ const ServiceModules = () => {
                     {/* Module 6: Edunoia Recognition Index (ERI)™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Connect™
                             </h6>
                             <div className="mb-3 sm:mb-4 ">
@@ -160,13 +159,13 @@ const ServiceModules = () => {
                     {/* Module 7: Edunoia FacultyFirst™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                           <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Recognition Index (ERI™)
                             </h6>
 
                             <div className="mb-3 sm:mb-4 ">
                                 <h4 className="heading-bluee">
-                                    Edunoia Recognition Index (ERI™)
+                                    Edunoia Recognition<br /> Index (ERI™)
                                 </h4>
                                 <div className="border-line "></div>
                             </div>
@@ -188,7 +187,7 @@ const ServiceModules = () => {
                     {/* Module 8: Edunoia Wear™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                         <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia FacultyFirst™
                             </h6>
 
@@ -217,13 +216,13 @@ const ServiceModules = () => {
                     {/* Module 9: Edunoia Legacy™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Wear™
                             </h6>
 
                             <div className="mb-3 sm:mb-4">
                                 <h4 className="heading-bluee">
-                                    Merchandise & Pride Program
+                                    Merchandise <br />& Pride<br /> Program
                                 </h4>
                                 <div className="border-linee"></div>
                             </div>
@@ -245,7 +244,7 @@ const ServiceModules = () => {
                     {/* Module 10: Edunoia Moments™ */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Legacy™
                             </h6>
 
@@ -272,12 +271,12 @@ const ServiceModules = () => {
                     {/* {New Module Added} */}
                     <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
                         <div>
-                             <h6 className="text-2xl italic font-bold mb-2 text-white-600">
+                            <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                                 Edunoia Moments™
                             </h6>
                             <div className="mb-3 sm:mb-4 ">
                                 <h4 className="heading-bluee">
-                                    Event Experience Branding
+                                    Event <br />Experience<br /> Branding
                                 </h4>
                                 <div className="border-linee"></div>
                             </div>
@@ -299,9 +298,10 @@ const ServiceModules = () => {
                     {/* CTA Card */}
                     <div className=" text-gray-800 p-4 sm:p-25 md:p-25 flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px]">
                         <div>
-                            <h5 className="text-[30px] text-white font-normal mb-4">
-                                Explore all our<br /> Branding services
+                            <h5 className="text-[36px] text-white font-[700] mb-4 leading-tight" >
+                                Explore all our Branding services
                             </h5>
+
                             <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3  font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
                                 View Details
                             </button>
@@ -313,4 +313,4 @@ const ServiceModules = () => {
     );
 };
 
-export default ServiceModules;
+export default TailoredModules;
