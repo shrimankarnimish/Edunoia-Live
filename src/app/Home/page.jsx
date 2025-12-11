@@ -112,22 +112,22 @@ const HeroSection = () => {
                                 </h3>
                             </div>
 
-                            <h4 className="text-[18px] sm:text-[20px] lg:text-[30px] text-white italic leading-relaxed">
-                                End-to-end branding solutions, covering everything from research and brand
-                                strategy to verbal and visual identity.
-                            </h4>
+                            <p className="p-white responsive-pgrey">
+                                We offer end-to-end branding services as well as proprietary tailored
+                                modules specifically developed for the education sector.
+                            </p>
 
                             <div className="h-0.5 w-full" style={{ backgroundColor: "#1B51FF" }} />
 
                             <ul className="space-y-1 text-white text-[18px] sm:text-[20px] lg:text-[24px] italic leading-snug">
-                                <li>Research, Analysis & Insights</li>
-                                <li>Brand Purpose, Positioning & Strategy</li>
-                                <li>Brand & Portfolio Architecture</li>
-                                <li>Naming & Verbal Identity</li>
-                                <li>Visual Identity</li>
-                                <li>Brand Communication</li>
-                                <li>Brand Experiences</li>
-                                <li>Brand Guidelines & Toolkits</li>
+                                <li><h4 className="blueh4">Research, Analysis & Insights</h4></li>
+                                <li><h4 className="blueh4">Brand Purpose, Positioning & Strategy</h4></li>
+                                <li><h4 className="blueh4">Brand & Portfolio Architecture</h4></li>
+                                <li><h4 className="blueh4">Naming & Verbal Identity</h4></li>
+                                <li><h4 className="blueh4">Visual Identity</h4></li>
+                                <li><h4 className="blueh4">Brand Communication</h4></li>
+                                <li><h4 className="blueh4">Brand Experiences</h4></li>
+                                <li><h4 className="blueh4">Brand Guidelines & Toolkits</h4></li>
                             </ul>
                         </div>
                     </div>
