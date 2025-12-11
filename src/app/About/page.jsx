@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
+
 import Image from 'next/image';
 import backgroundImage from "../../../public/Assets/images/image 1.jpg";
 import Aboutus from "./aboutus"
