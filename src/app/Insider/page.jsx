@@ -65,7 +65,7 @@ const inside_service1 = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-16">
             {/* Left Side - Image */}
             <div className="lg:w-1/2">
-              <div className="relative lg:sticky lg:top-20">
+              <div className="relative lg:sticky lg:top-50">
                 <Image
                   src={Service1}
                   alt="Team meeting"
@@ -76,7 +76,7 @@ const inside_service1 = () => {
             </div>
 
             {/* Right Side - Content */}
-            <div className="lg:w-1/2 space-y-10 mt-12">
+            <div className="lg:w-1/2 space-y-10 mt-12 lg:top-50">
               {/* Ideal For */}
               <div>
                 <p className="text-blue-600 font-bold text-xs sm:text-sm uppercase tracking-widest">

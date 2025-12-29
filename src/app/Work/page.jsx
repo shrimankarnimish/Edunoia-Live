@@ -9,6 +9,8 @@ import flame from "../../../public/Assets/images/flame.jpg";
 import flamehover from "../../../public/Assets/images/flamet.jpg";
 import atoot from "../../../public/Assets/images/atoot.jpg";
 import atoothover from "../../../public/Assets/images/atoott.jpg";
+import birla from "../../../public/Assets/images/birla/birla_logo.webp"
+import shloka from "../../../public/Assets/images/shloka/shloka4.webp"
 
 // Add more imports...
 
@@ -39,12 +41,19 @@ export default function WorkPage() {
       imageHover: atoothover,
       link: "/atoot",
     },
-    // {
-    //   Title: "Atoot",
-    //   image: emversity,
-    //   imageHover: atoothover,
-    //   link: "/work/growgether",
-    // },
+    {
+      Title: "Birla International School",
+      image: birla,
+      imageHover: birla,
+      link: "/Birla ",
+    },
+    {
+      Title: "Shloka",
+      image: shloka,
+      imageHover: shloka,
+      link: "/shloka ",
+    },
+  
   ];
 
   return (
