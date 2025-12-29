@@ -92,7 +92,7 @@ export default function Navbar() {
 
           {/* Mobile Sidebar Menu */}
           <div
-            className={`fixed top-0 right-0 h-full w-64 bg-black/90 backdrop-blur-lg transform 
+            className={`fixed top-0 right-0 h-full w-64 backdrop-blur-lg transform 
                         ${open ? "translate-x-0" : "translate-x-full"}
                         transition-transform duration-300 md:hidden z-[999]`}
           >
