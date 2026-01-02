@@ -5,6 +5,7 @@ import Flame from "../../../public/Assets/images/ClientLogos/flame.svg"
 import yashbirla from "../../../public/Assets/images/ClientLogos/yashBirla.svg"
 import londonschool from "../../../public/Assets/images/ClientLogos/londonschool.svg"
 import isbr from "../../../public/Assets/images/ClientLogos/isbr.svg"
+import { Fadein,Fadeinleft,Fadeinright,Fadeindownstagger } from '../Components/Animations';
 
 const WhyEdunoia = () => {
     return (
@@ -13,6 +14,7 @@ const WhyEdunoia = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16">
 
                     {/* Left Column */}
+                    <Fadeinright>
                     <div className="space-y-4 lg:space-y-6">
                         {/* Main Heading */}
                         <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">
@@ -24,7 +26,9 @@ const WhyEdunoia = () => {
                             Because education deserves<br /> its own brand language.
                         </h2>
                     </div>
+                    </Fadeinright>
                     {/* Right Column */}
+                    <Fadeinleft>
                     <div className="space-y-6 lg:space-y-8">
                         {/* Description Text */}
                         <p className="p-grey"  >
@@ -72,6 +76,7 @@ const WhyEdunoia = () => {
                             </button>
                         </div>
                     </div>
+                    </Fadeinleft>
 
                 </div>
             </div>

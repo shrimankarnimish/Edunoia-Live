@@ -6,6 +6,7 @@ import WhyEdunoia from "./whyEdunoia";
 import Modules from "./modules";
 import CaseStudy from "../Components/Casestudy";
 import Slider from "./slider";
+import { Fadeinleft,Fadeinright } from "../Components/Animations";
 
 const HeroSection = () => {
   return (
@@ -24,6 +25,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-5 container mx-auto">
+          <Fadeinright>
           <div className="max-w-6xl">
             <h1 className="text-4xl sm:text-3xl lg:text-6xl xl:text-6xl text-white leading-[1.2] tracking-light">
               India's first and only brand <br className="br-hide" />
@@ -42,10 +44,13 @@ const HeroSection = () => {
               </button>
             </div>
           </div>
+          </Fadeinright>
         </div>
       </section>
       {/* WHY EDUNOIA Start */}
+   
       <WhyEdunoia />
+     
       {/* WHY EDUNOIA END */}
 
       <section style={{ background: "#66AEF1" }} className="py-10">
@@ -62,6 +67,7 @@ const HeroSection = () => {
         <div className="mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start">
             {/* LEFT CONTENT */}
+            <Fadeinright>
             <div className="space-y-8 cust-padding-left pt-24 pb-24 lg:pt-36 lg:pb-40">
               <div className="space-y-3">
                 <p className="text-[18px] sm:text-[20px] lg:text-2xl font-bold text-gray-900">
@@ -83,7 +89,9 @@ const HeroSection = () => {
                 VIEW DETAILS
               </button>
             </div>
+            </Fadeinright>
             {/* RIGHT CONTENT */}
+          
             <div
               className="space-y-8 second-padding-right pt-24 pb-24 lg:pt-36 lg:pb-40"
               style={{
@@ -139,6 +147,7 @@ const HeroSection = () => {
                 </li>
               </ul>
             </div>
+          
           </div>
         </div>
       </section>
