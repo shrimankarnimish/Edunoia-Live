@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 function Footer() {
   return (
@@ -88,6 +89,22 @@ function Footer() {
                   <p>info@edunoia.in</p>
                 </div>
               </div>
+            </div>
+            
+            {/* SOCIAL MEDIA ICONS - Below both columns */}
+            <div className="flex flex-wrap gap-6 mt-8">
+              <a href="#" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                FACEBOOK
+              </a>
+              <a href="#" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                LINKEDIN
+              </a>
+              <a href="#" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                INSTAGRAM
+              </a>
+              <a href="#" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                X
+              </a>
             </div>
           </div>
         </div>

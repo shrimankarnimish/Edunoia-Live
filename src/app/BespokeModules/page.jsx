@@ -130,9 +130,9 @@ const inside_service1 = () => {
                   perceived, and what makes you irreplaceable in the education
                   landscape.
                 </p>
-                <p className="text-blue-600 font-bold text-xs sm:text-sm uppercase tracking-widest">
+                {/* <p className="text-blue-600 font-bold text-xs sm:text-sm uppercase tracking-widest">
                   3–5 researched, conflict-free options
-                </p>
+                </p> */}
                 <div className="border-line-grey"></div>
                 <h6 className="mt-4 text-lg sm:text-xl italic lg:text-2xl font-semibold text-[#002855] mt-9">
                   Brand & Portfolio Architecture
@@ -181,6 +181,15 @@ const inside_service1 = () => {
                   We bring your brand to life in physical spaces, signage,
                   wayfinding, event branding, and spatial storytelling that
                   shape campus experiences.
+                </p>
+                <div className="border-line-grey"></div>
+                <h6 className="mt-4 text-lg sm:text-xl italic lg:text-2xl font-semibold text-[#002855] mt-9">
+                  Brand Toolkits & Guidlines
+                </h6>
+                <p className="p-blue mt-5">
+                  Future-proof your identity. Our brand toolkits ensure your
+                  look, feel, and tone stay consistent as your institution
+                  grows.
                 </p>
                 <div className="border-line-grey"></div>
               </div>

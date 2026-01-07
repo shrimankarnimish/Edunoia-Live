@@ -2,13 +2,11 @@ import React from "react";
 import Link from "next/link";
 import {StaggerContainer,StaggerItem,SlideFadeLeft,} from "../Components/Animations";
 
-
 const TailoredModules = () => {
   return (
     <section className="bg-[#1B51FF] py-8 sm:py-12 md:py-16 min-h-screen">
       {/* Grid Section */}
       <div className="mx-auto container">
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
           {/* Module 1: Edunoia LaunchPad™ */}
           <div className=" text-white flex flex-col justify-between min-h-[280px] sm:min-h-[300px] pt-8">
@@ -24,12 +22,12 @@ const TailoredModules = () => {
                   institutional challenges with speed, clarity, and
                   cost-efficiency.
                 </h6>
-                {/* <div className="border-line"></div> */}
               </div>
             </div>
           </div>
+          
           {/* Module 2: Edunoia Re:Fresh™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia LaunchPad™
@@ -71,7 +69,7 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 3: Edunoia AdmitEdge™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Re:Fresh™
@@ -113,7 +111,7 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 4: Edunoia Connect™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                  Edunoia AdmitEdge™
@@ -123,7 +121,6 @@ const TailoredModules = () => {
                   Admissions
                   <br /> Accelerator
                 </h4>
-
                 <div className="border-linee"></div>
               </div>
               <h6 className="title">
@@ -136,7 +133,6 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="TailoredModules/AdmissionTeamTraning">
-              {" "}
               <button className="cursor-pointer mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase tracking-wide">
                 View Details
                 <svg
@@ -157,7 +153,7 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 5: Edunoia Compass™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Connect™
@@ -198,7 +194,7 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 6: Edunoia Recognition Index (ERI)™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Compass™ 
@@ -238,12 +234,11 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 7: Edunoia FacultyFirst™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Recognition Index (ERI™)
               </h6>
-
               <div className="mb-3 sm:mb-4 ">
                 <h4 className="heading-bluee">
                   Edunoia Recognition
@@ -280,12 +275,11 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 8: Edunoia Wear™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia FacultyFirst™
               </h6>
-
               <div className="mb-3 sm:mb-4">
                 <h4 className="heading-bluee">
                   Faculty Engagement
@@ -294,7 +288,7 @@ const TailoredModules = () => {
                 <div className="border-line"></div>
               </div>
               <h6 className="title">
-                Build a faculty that believes, belongs, and becomes your brand’s
+                Build a faculty that believes, belongs, and becomes your brand's
                 voice.
               </h6>
               <p className="p-blue">
@@ -323,12 +317,11 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 9: Edunoia Legacy™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Wear™
               </h6>
-
               <div className="mb-3 sm:mb-4">
                 <h4 className="heading-bluee">
                   Merchandise & Pride <br /> Program
@@ -364,12 +357,11 @@ const TailoredModules = () => {
           </div>
 
           {/* Module 10: Edunoia Moments™ */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Legacy™
               </h6>
-
               <div className="mb-3 sm:mb-4 ">
                 <h4 className="heading-bluee">
                   IP Development for Events
@@ -402,8 +394,9 @@ const TailoredModules = () => {
             </button>
             </Link>
           </div>
-          {/* {New Module Added} */}
-          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-105 hover:shadow-xl">
+          
+          {/* New Module Added */}
+          <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
                 Edunoia Moments™
@@ -448,7 +441,6 @@ const TailoredModules = () => {
               <h5 className="text-[36px] text-white font-[700] mb-4 leading-tight">
                 Explore all our Branding services
               </h5>
-
               <Link href="/Services">
               <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3  font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
                 View Details
@@ -456,7 +448,6 @@ const TailoredModules = () => {
               </Link>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
@@ -464,7 +455,3 @@ const TailoredModules = () => {
 };
 
 export default TailoredModules;
-
-
-
-

@@ -6,34 +6,37 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
-import case1 from "../../../public/Assets/images/casestudy1.jpg"
-import case2 from "../../../public/Assets/images/casestudy2.jpg";
-import case3 from "../../../public/Assets/images/casestudy3.png";
+// import case1 from "../../../public/Assets/images/casestudy1.jpg"
+// import case2 from "../../../public/Assets/images/casestudy2.jpg";
+// import case3 from "../../../public/Assets/images/casestudy3.png";
+ import case1 from "../../../public/Assets/images/thumbnail1.webp";
+ import case2 from "../../../public/Assets/images/thumbnail2.webp";
+ import case3 from "../../../public/Assets/images/thumbnail3.webp";
 
 export default function CaseStudyCarousel() {
     const cards = [
         {
-            title: "Branding India’s leading institute in skill–based education",
+            title: "Geopolitical Shift at BRICS: How the 2025 Summit Is Revamping India’s Educational Ambitions",
             img: case1,
         },
         {
-            title: "Branding India’s leading institute in skill–based education",
+            title: "Meera’s Triumph:Illuminating the Path to Educational Equality in Rural India",
             img: case2,
         },
         {
-            title: "Branding India’s leading institute in skill–based education",
+            title: "Unleashing Potential: The Transformative Power of Socio-Emotional Learning and Mental Well-being in Indian Education",
             img: case3,
         },
         {
-            title: "A new direction for future-ready learning",
+            title: "Geopolitical Shift at BRICS: How the 2025 Summit Is Revamping India’s Educational Ambitions",
             img: case1,
         },
         {
-            title: "Digital transformation for modern education",
+            title: "Meera’s Triumph:Illuminating the Path to Educational Equality in Rural India",
             img: case2,
         },
         {
-            title: "Creating powerful narratives through design",
+            title: "Unleashing Potential: The Transformative Power of Socio-Emotional Learning and Mental Well-being in Indian Education",
             img: case3,
         },
     ];

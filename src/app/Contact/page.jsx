@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className="absolute inset-0 bg-black/40"></div>
             </section>
 
-            <section className="w-full bg-black text-white contact-us-form-container">
+            <section className="w-full bg-[#002855] text-white contact-us-form-container">
                 <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 ">
 
                     {/* LEFT — FORM */}
