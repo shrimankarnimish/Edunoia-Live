@@ -102,10 +102,10 @@ const page = () => {
               </div>
               </Link>
               <div>
-                <h3 className="text-lg font-bold text-[#002855] mb-2">
+                {/* <h3 className="text-lg font-bold text-[#002855] mb-2">
                   NEW EDUCATION MODEL
-                </h3>
-                <h4 className="text-xl font-bold text-[#002855]">
+                </h3> */}
+                <h4 className="text-xl font-bold text-[#002855] mt-5">
                   Geopolitical Shift at BRICS: How the 2025 Summit Is Revamping India's Educational Ambitions
                 </h4>
                 <p className="text-gray-600 mt-2">
@@ -126,9 +126,9 @@ const page = () => {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#002855] mb-2">
+                {/* <h3 className="text-lg font-bold text-[#002855] mb-2">
                   NEW EDUCATION MODEL
-                </h3>
+                </h3> */}
                 <h4 className="text-xl font-bold text-[#002855]">
                   Meera's Triumph-Illuminating the Path to Educational Equality in Rural India
                 </h4>
@@ -150,9 +150,9 @@ const page = () => {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#002855] mb-2">
+                {/* <h3 className="text-lg font-bold text-[#002855] mb-2">
                   NEW EDUCATION MODEL
-                </h3>
+                </h3> */}
                 <h4 className="text-xl font-bold text-[#002855]">
                   Unleashing Potential: The Transformative Power of Socio-Emotional Learning and Mental Well-being in Indian Education
                 </h4>

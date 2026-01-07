@@ -28,7 +28,7 @@ const inside_service1 = () => {
             </h6>
 
             <h1 className="text-4xl sm:text-3xl lg:text-6xl xl:text-6xl text-white leading-[1.2] tracking-light font-bold">
-              90-Day Institution,
+              90-Day Institution
               <br /> Launch Kit
             </h1>
           </div>
@@ -42,7 +42,7 @@ const inside_service1 = () => {
             <div className="space-y-4 lg:space-y-6">
               <h2 className="h-blue">
                 Launch like a top-tier
-                <br /> institution in under 90 days.
+                <br /> institution, in under 90 days.
               </h2>
             </div>
 
