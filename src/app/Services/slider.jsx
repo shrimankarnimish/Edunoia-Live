@@ -5,7 +5,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-
+import { Fadeinup } from "../Components/Animations";
 import case1 from "../../../public/Assets/images/casestudy1.jpg";
 import case2 from "../../../public/Assets/images/casestudy2.jpg";
 import case3 from "../../../public/Assets/images/casestudy3.png";
@@ -39,6 +39,7 @@ export default function CaseStudyCarousel() {
   ];
 
   return (
+    <Fadeinup>
     <div className="w-full container mx-auto py-10 ">
       <Swiper
         spaceBetween={20}
@@ -80,5 +81,6 @@ export default function CaseStudyCarousel() {
         ))}
       </Swiper>
     </div>
+    </Fadeinup>
   );
 }

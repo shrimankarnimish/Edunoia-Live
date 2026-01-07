@@ -13,6 +13,7 @@ import achal from "../../../public/Assets/images/achal.webp";
 import nemish from "../../../public/Assets/images/nemish.webp";
 import kshitij from "../../../public/Assets/images/kshitij.webp";
 import Slider from "../Home/slider";
+import { Fadeinup } from "../Components/Animations";
 
 const teams = () => {
   const teamCards = [
@@ -76,6 +77,7 @@ const teams = () => {
 
   return (
     <div>
+      <Fadeinup>
       <section className="bg-[#002855] py-16">
         <div className="container mx-auto px-4">
           {/* Advisory Panel Heading */}
@@ -121,6 +123,7 @@ const teams = () => {
           </Swiper>
         </div>
       </section>
+      </Fadeinup>
 
       <Slider />
     </div>

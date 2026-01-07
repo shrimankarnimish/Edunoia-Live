@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import { Fadeinleft,Fadeinright } from '../Components/Animations';
 
 const WhyEdunoia = () => {
     return (
@@ -8,6 +9,7 @@ const WhyEdunoia = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16">
 
                     {/* Left Column */}
+                    <Fadeinright>
                     <div className="space-y-4 lg:space-y-6">
                         {/* Main Heading */}
                         <p className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">
@@ -19,9 +21,11 @@ const WhyEdunoia = () => {
                             We blend brand thinking <br/> with educational insight.
                         </h2>
                     </div>
+                    </Fadeinright>
 
                     {/* Right Column */}
                     <div className="space-y-6 lg:space-y-8">
+                        <Fadeinleft>
                         {/* Description Text */}
                         <p
                             className="p-grey"
@@ -36,6 +40,7 @@ const WhyEdunoia = () => {
                             and purpose.
                         </p>
                         <h6 className='p-italic-dblue'>Edunoia exists to ensure that the excellence you build is recognised, valued, and trusted.</h6>
+                        </Fadeinleft>
                     </div>
 
                 </div>
