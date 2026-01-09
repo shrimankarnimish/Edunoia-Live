@@ -75,7 +75,7 @@ const About = () => {
                   </p>
                   <h2 className="h-blue">
                     Branding for every stage of
-                    <br /> an institution’s journey.
+                     an institution’s journey.
                   </h2>
                 </Fadeinleft>
               </div>

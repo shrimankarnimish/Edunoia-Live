@@ -283,6 +283,9 @@ h6 {
   line-height: 1.6;
   /* optional, matches leading-relaxed */
 }
+.color-white{
+  color:#fff;
+}
 .blueh4{ 
   font-size: 24px;
   color: white;
@@ -343,9 +346,16 @@ h3.p-italic {
   color: #1B51FF;
   font-weight: 600;
   margin-bottom: 35px;
- font-family: 'Merriweather serif';
+ /* font-family: 'Merriweather serif'; */
 }
-
+.p3-italic-white{
+  font-size: 18px ; 
+  font-style: italic;
+  color: #FFFFFF !important;
+  font-weight: 600;
+  margin-bottom: 35px;
+ /* font-family: 'Merriweather serif'; */
+}
 
 .p-italic-dblue {
   font-family: 'Merriweather serif';
