@@ -19,7 +19,7 @@ const teams = () => {
   const teamCards = [
     {
       id: 1,
-      name: "Ar. Ratan Baltiboi",
+      name: "Ar. Ratan J Baltiboi",
       role: "Owner at Ratan J Baltiboi Architects",
       image: ratan,
       description:
@@ -98,28 +98,28 @@ const teams = () => {
             }}
             modules={[Navigation]}
           >
-            {teamCards.map((member) => (
-              <SwiperSlide key={member.id}>
-                <div className="text-white">
-                  <div className="overflow-hidden">
-                    <Image
-                      src={member.image}
-                      alt={`Team member ${member.id}`}
-                      width={150}
-                      height={250}
-                      className="w-full h-auto"
-                    />
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-4 italic">{member.name}</p>
-                    <p className="mt-4">{member.role}</p>
-                    <p className="mt-3 text-sm opacity-80">
-                      {member.description}
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
+          {teamCards.map((member) => (
+  <SwiperSlide key={member.id}>
+    <div className="color-white">
+      <div className="overflow-hidden">
+        <Image
+          src={member.image}
+          alt={`Team member ${member.id}`}
+          width={150}
+          height={250}
+          className="w-full h-auto"
+        />
+      </div>
+      <div className="text-center">
+        <h3 className="mt-4 p3-italic-white">{member.name}</h3>
+       <p className="mt-4">{member.role}</p>
+        <p className="mt-3">
+          {member.description}
+        </p>
+      </div>
+    </div>
+  </SwiperSlide>
+))}
           </Swiper>
         </div>
       </section>

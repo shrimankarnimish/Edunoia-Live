@@ -44,7 +44,7 @@ export default function Navbar() {
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 
         ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-black/40 backdrop-blur-md"}`}
       >
-        <div className="relative z-5 container mx-auto px-4">
+        <div className="relative z-5 container mx-auto ">
           <nav className="flex items-center justify-between py-4 mt-1">
             {/* LOGO */}
             <div className="flex items-center">
