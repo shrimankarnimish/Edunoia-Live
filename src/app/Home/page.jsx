@@ -35,19 +35,30 @@ const HeroSection = () => {
               </h1>
 
               {/* CTA Buttons - Exact styling from first image */}
-              <div className="flex flex-col sm:flex-row gap-4 mt-12">
-                <Link href="/Services">
-                  <button class="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out tracking-wide uppercase cursor-pointer text-sm sm:text-base hover:scale-105">
+              <div className="flex flex-col sm:flex-row gap-4 mt-12 w-full sm:w-auto">
+                <Link href="/Services" className="w-full sm:w-auto">
+                  <button
+                    className="font-body w-full sm:w-auto bg-white text-[#1B51FF] hover:bg-gray-50
+                 font-semibold py-3 px-8 transition duration-200 ease-in-out
+                 tracking-wide uppercase cursor-pointer text-sm sm:text-base
+                 hover:scale-105 text-center"
+                  >
                     START YOUR INSTITUTIONS JOURNEY
                   </button>
                 </Link>
 
-                <Link href="/Contact">
-                  <button class="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out tracking-wide uppercase cursor-pointer text-sm sm:text-base hover:scale-105">
+                <Link href="/Contact" className="w-full sm:w-auto">
+                  <button
+                    className="font-body w-full sm:w-auto bg-white text-[#1B51FF] hover:bg-gray-50
+                 font-semibold py-3 px-8 transition duration-200 ease-in-out
+                 tracking-wide uppercase cursor-pointer text-sm sm:text-base
+                 hover:scale-105 text-center"
+                  >
                     BOOK A DISCOVERY CALL
                   </button>
                 </Link>
               </div>
+
             </div>
           </Fadeinright>
         </div>
@@ -60,10 +71,19 @@ const HeroSection = () => {
 
       <section style={{ background: "#66AEF1" }} className="py-10">
         <div className="container mx-auto w-full py-12 md:py-16 lg:py-20">
-          <Image src={counter2} alt="Counter image" />
+          {/* Video with controls */}
+          <video className="w-full h-auto rounded-lg shadow-lg"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/Assets/images/video1.mp4" />
+
+
+          </video>
         </div>
       </section>
-
       {/* WHAT WE DO START */}
 
       {/* WHAT WE DO END */}

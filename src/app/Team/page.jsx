@@ -37,15 +37,25 @@ const TeamSection = () => {
               </h1>
 
               {/* CTA Buttons - Exact styling from first image */}
-              <div className="flex flex-col sm:flex-row gap-4 mt-12">
-                <Link href="/Services">
-                  <button class="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out tracking-wide uppercase cursor-pointer text-sm sm:text-base hover:scale-105">
+              <div className="flex flex-col sm:flex-row gap-4 mt-12 w-full sm:w-auto">
+                <Link href="/Services" className="w-full sm:w-auto">
+                  <button
+                    className="font-body w-full sm:w-auto bg-white text-[#1B51FF] hover:bg-gray-50
+                 font-semibold py-3 px-8 transition duration-200 ease-in-out
+                 tracking-wide uppercase cursor-pointer text-sm sm:text-base
+                 hover:scale-105 text-center"
+                  >
                     START YOUR INSTITUTIONS JOURNEY
                   </button>
                 </Link>
 
-                <Link href="/Contact">
-                  <button class="font-body bg-white text-[#1B51FF] hover:bg-gray-50 font-semibold py-3 px-8 transition duration-200 ease-in-out tracking-wide uppercase cursor-pointer text-sm sm:text-base hover:scale-105">
+                <Link href="/Contact" className="w-full sm:w-auto">
+                  <button
+                    className="font-body w-full sm:w-auto bg-white text-[#1B51FF] hover:bg-gray-50
+                 font-semibold py-3 px-8 transition duration-200 ease-in-out
+                 tracking-wide uppercase cursor-pointer text-sm sm:text-base
+                 hover:scale-105 text-center"
+                  >
                     BOOK A DISCOVERY CALL
                   </button>
                 </Link>
