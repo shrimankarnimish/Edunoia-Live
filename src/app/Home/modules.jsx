@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {StaggerContainer,StaggerItem,SlideFadeLeft,} from "../Components/Animations";
+import { StaggerContainer, StaggerItem, SlideFadeLeft, } from "../Components/Animations";
 
 const TailoredModules = () => {
   return (
@@ -25,7 +25,7 @@ const TailoredModules = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Module 2: Edunoia Re:Fresh™ */}
           <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
@@ -114,7 +114,7 @@ const TailoredModules = () => {
           <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
-                 Edunoia AdmitEdge™
+                Edunoia AdmitEdge™
               </h6>
               <div className="mb-3 sm:mb-4">
                 <h4 className="heading-bluee">
@@ -124,12 +124,10 @@ const TailoredModules = () => {
                 <div className="border-linee"></div>
               </div>
               <h6 className="title">
-                Reignite your brand before another admissions season passes.
+                Boost enrolments with a clear, compelling brand story.
               </h6>
               <p className="p-blue">
-                For established institutions losing relevance, this sprint
-                delivers a modern identity, sharper messaging, and renewed
-                trust.
+                We align your messaging and campaigns with what truly motivates students and parents
               </p>
             </div>
             <Link href="TailoredModules/AdmissionTeamTraning">
@@ -174,22 +172,22 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="TailoredModules/AluminiDonorBranding">
-            <button className="cursor-pointer mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="cursor-pointer mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
@@ -197,7 +195,7 @@ const TailoredModules = () => {
           <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
               <h6 className="text-base sm:text-lg md:text-xl italic font-bold mb-2 text-white-600">
-                Edunoia Compass™ 
+                Edunoia Compass™
               </h6>
               <div className="mb-3 sm:mb-4 ">
                 <h4 className="heading-bluee">
@@ -208,28 +206,26 @@ const TailoredModules = () => {
               </div>
               <h6 className="title">Measure what truly matters</h6>
               <p className="p-blue">
-                For established institutions losing relevance, this sprint
-                delivers a modern identity, sharper messaging, and renewed
-                trust.
+                Our proprietary tracking tool benchmarks your institution across awareness, reputation, loyalty, and satisfaction, year after year.
               </p>
             </div>
             <Link href="TailoredModules/BrandHealthTracker">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 cursor-pointer  text-left flex items-center uppercase tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 cursor-pointer  text-left flex items-center uppercase tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
@@ -255,22 +251,22 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="TailoredModules/ERI">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 cursor-pointer  text-left flex items-center uppercase tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 cursor-pointer  text-left flex items-center uppercase tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
@@ -297,22 +293,22 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="TailoredModules/FacultyProgram">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left cursor-pointer  flex items-center uppercase tracking-wide ">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left cursor-pointer  flex items-center uppercase tracking-wide ">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
@@ -337,22 +333,22 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="TailoredModules/MerchandisePrideProgram">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center cursor-pointer  uppercase tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center cursor-pointer  uppercase tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
@@ -376,25 +372,25 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="/TailoredModules/IPdevelopment">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase cursor-pointer tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase cursor-pointer tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
-          
+
           {/* New Module Added */}
           <div className="bg-white text-gray-800 p-4 sm:p-5 md:p-6 shadow-lg flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px] transition-transform hover:scale-95 hover:shadow-xl">
             <div>
@@ -416,35 +412,35 @@ const TailoredModules = () => {
               </p>
             </div>
             <Link href="/TailoredModules/EventExperienceBranding">
-            <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase cursor-pointer tracking-wide">
-              View Details
-              <svg
-                className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+              <button className="mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase cursor-pointer tracking-wide">
+                View Details
+                <svg
+                  className="w-3 h-3 sm:w-4 sm:h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
             </Link>
           </div>
 
           {/* CTA Card */}
-           <div className=" text-gray-800 p-4 sm:p-25 md:p-25 flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px]">
+          <div className=" text-gray-800 p-4 sm:p-25 md:p-25 flex flex-col justify-between min-h-[280px] sm:min-h-[300px] md:min-h-[320px]">
             <div>
               <h5 className="text-[36px] text-white font-[700] mb-4 leading-tight">
                 Explore all our Branding services
               </h5>
               <Link href="/Services">
-              <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3  font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
-                View Details
-              </button>
+                <button className="cursor-pointer bg-white text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3  font-semibold hover:bg-gray-100 transition-colors uppercase text-xs sm:text-sm tracking-wide">
+                  View Details
+                </button>
               </Link>
             </div>
           </div>

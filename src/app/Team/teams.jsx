@@ -31,7 +31,7 @@ const teams = () => {
       role: "Member of Board of Studies at Avantika University of Ujjain",
       image: jamila,
       description:
-        "A passionate educator and design thinker, Dr. Jamila Varamala finds her deepest fulfilment in guiding young minds. ",
+        "A passionate educator and design thinker, Dr. Jamila Varamala finds her deepest fulfilment in guiding young minds. ",
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const teams = () => {
       role: "Founder of Art Village",
       image: ganga,
       description:
-        "A versatile Artist and Founder member of 'Art Village' in Karjat, Mumbai, is a prolific force in the world of art. ",
+        "A versatile Artist and Founder member of 'Art Village' in Karjat, Mumbai, is a prolific force in the world of art. ",
     },
     {
       id: 4,
@@ -85,42 +85,57 @@ const teams = () => {
             Advisory Panel
           </h2>
 
-          <Swiper
-            spaceBetween={24}
-            slidesPerView={1}
-            navigation={false}
-            breakpoints={{
-              480: { slidesPerView: 1 },
-              640: { slidesPerView: 1.2 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
-            }}
-            modules={[Navigation]}
-          >
-          {teamCards.map((member) => (
-  <SwiperSlide key={member.id}>
-    <div className="color-white">
-      <div className="overflow-hidden">
-        <Image
-          src={member.image}
-          alt={`Team member ${member.id}`}
-          width={150}
-          height={250}
-          className="w-full h-auto"
-        />
-      </div>
-      <div className="text-center">
-        <h3 className="mt-4 p3-italic-white">{member.name}</h3>
-       <p className="mt-4">{member.role}</p>
-        <p className="mt-3">
-          {member.description}
-        </p>
-      </div>
-    </div>
-  </SwiperSlide>
-))}
-          </Swiper>
+          <div className="relative">
+            <Swiper
+              spaceBetween={24}
+              slidesPerView={1}
+              navigation={{
+                prevEl: '.swiper-button-prev-custom',
+                nextEl: '.swiper-button-next-custom',
+              }}
+              breakpoints={{
+                480: { slidesPerView: 1 },
+                640: { slidesPerView: 1.2 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+                1280: { slidesPerView: 4 },
+              }}
+              modules={[Navigation]}
+            >
+              {teamCards.map((member) => (
+                <SwiperSlide key={member.id}>
+                  <div className="color-white">
+                    <div className="overflow-hidden">
+                      <Image
+                        src={member.image}
+                        alt={`Team member ${member.id}`}
+                        width={150}
+                        height={250}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="text-center">
+                      <h3 className="mt-4 p3-italic-white">{member.name}</h3>
+                      <p className="mt-4">{member.role}</p>
+                      <p className="mt-3">{member.description}</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+
+            {/* Custom Navigation Arrows */}
+            <div className="swiper-button-prev-custom absolute -left-4 md:-left-16 top-[40%] md:top-[35%] -translate-y-1/2 z-10 cursor-pointer bg-white/10 hover:bg-white/20 rounded-full p-3 transition-all duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </div>
+            <div className="swiper-button-next-custom absolute -right-4 md:-right-16 top-[40%] md:top-[35%] -translate-y-1/2 z-10 cursor-pointer bg-white/10 hover:bg-white/20 rounded-full p-3 transition-all duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
         </div>
       </section>
       </Fadeinup>

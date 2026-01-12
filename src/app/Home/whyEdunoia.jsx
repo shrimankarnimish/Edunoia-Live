@@ -45,11 +45,12 @@ const WhyEdunoia = () => {
                             <div className="w-full h-[2px] mb-0 bg-[#1B51FF]"></div>
 
                             {/* Infinite Carousel */}
-                            <div className="overflow-hidden w-full py-4 lg:py-6">
-                                <div className="animate-slide flex w-max">
+                           {/* Infinite Carousel */}
+                            <div className="overflow-hidden w-full py-8 lg:py-10">
+                                <div className="animate-slide flex w-max items-center">
 
                                     {/* Slide 1 */}
-                                    <div className="flex gap-16 px-8">
+                                    <div className="flex items-center gap-16 px-8">
                                         <Image src={Flame} className="object-contain" />
                                         <Image src={londonschool} className="object-contain" />
                                         <Image src={isbr} className="object-contain" />
@@ -57,7 +58,7 @@ const WhyEdunoia = () => {
                                     </div>
 
                                     {/* Slide 2 (duplicate for infinite loop) */}
-                                    <div className="flex gap-16 px-8">
+                                    <div className="flex items-center gap-16 px-8">
                                         <Image src={Flame} className="object-contain" />
                                         <Image src={londonschool} className="object-contain" />
                                         <Image src={isbr} className="object-contain" />

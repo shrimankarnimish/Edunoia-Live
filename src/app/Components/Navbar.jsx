@@ -175,7 +175,7 @@ export default function Navbar() {
 
         {/* Footer */}
         <div className="px-8 py-6 border-t border-white/10">
-          <p className="text-gray-500 text-sm">© 2024 Your Company</p>
+          <p className="text-gray-500 text-sm">© 2026 Edunoia</p>
         </div>
 
         {/* Decorative Gradient Orbs */}

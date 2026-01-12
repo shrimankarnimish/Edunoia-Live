@@ -365,6 +365,14 @@ h3.p-italic {
   font-style: italic;
 }
 
+.p-italic-white {
+  font-family: 'Merriweather serif';
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-style: italic;
+}
+
 .v-border {
   position: relative;
 }
@@ -401,6 +409,21 @@ h3.p-italic {
 }
 
 
+
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+ 
+  .what-we-do-container .cust-padding-left{
+    padding-left: 6% !important;
+   
+}}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+ 
+  .what-we-do-container .cust-padding-left{
+    padding-left: 10% !important;
+   
+}}
+
 /* Media Queries */
 @media (max-width: 640px) {
 
@@ -411,7 +434,9 @@ h3.p-italic {
   .p-blue {
     font-size: 14px;
   }
-
+  .p-italic-white{
+    font-size: 18px;
+  } 
   .title {
     font-size: 18px;
   }

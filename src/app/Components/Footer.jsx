@@ -50,11 +50,8 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {/* LEFT TEXT - Takes 2 columns worth of space on desktop */}
             <div className="md:col-span-2 max-w-full sm:max-w-[25rem]">
-              <h3 className="title">
-                Edunoia is a part of lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-              </h3>
+              <h6 className="p-italic-white ">Edunoia is a part of ABND</h6>
+              <p className="text-white mt-4">ABND is a Consulting firm that offers Brand Strategy, Design, and Culture-building. We have 5 clearly defined practice areas. Each practice area acts as an independent business unit and functions with a specialised team.</p>
             </div>
 
             {/* QUICK LINKS & CONTACT - Takes 1 column on desktop */}
