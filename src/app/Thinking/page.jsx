@@ -11,32 +11,29 @@ import backgroundImage from "../../../public/Assets/images/thinking_banner.jpg";
 const page = () => {
   return (
     <div>
-      <section className="relative service-section w-full flex items-end">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={backgroundImage}
-            alt="Background"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-        <div className="relative z-5 container mx-auto">
-          <SlideFadeLeft>
-          <div className="max-w-6xl">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl xl:text-6xl text-white leading-[1.2] tracking-light mb-45">
-              <span className="font-bold block">
-                Thought leadership that shapes
-              </span>
-              <span className="font-bold block">
-                the future of education branding.
-              </span>
-            </h1>
-          </div>
-          </SlideFadeLeft>
-        </div>
-      </section>
+      <section className="relative service-section w-full flex items-end mt-15">
+           {/* Background Image */}
+           <div className="absolute inset-0 z-0">
+             <Image
+               src={backgroundImage}
+               alt="Background"
+               fill
+               className="object-cover"
+               priority
+             />
+             {/* Optional overlay */}
+           </div>
+   
+           {/* Content */}
+           <div className="relative z-10 container mx-auto pb-40">
+             <Fadeinright>
+               <h1 className="text-4xl sm:text-3xl lg:text-6xl xl:text-6xl text-white leading-[1.2] tracking-light">
+                 Thought leadership that shapes   <br className="br-hide" /> the future of education branding.
+              
+               </h1>
+             </Fadeinright>
+           </div>
+         </section>
 
       <div className="w-full bg-white py-20">
         <div className="mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 container">
