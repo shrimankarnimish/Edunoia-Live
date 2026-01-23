@@ -48,7 +48,7 @@ export default function Navbar() {
           <nav className="flex items-center justify-between py-4 mt-1">
             {/* LOGO */}
             <div className="flex items-center">
-              <a href="/">
+              <Link href="/">
                 <Image
                   src={Logo}
                   style={{ height: "4rem" }}
@@ -56,7 +56,7 @@ export default function Navbar() {
                   priority
                   className="h-10 w-auto md:h-10 object-contain cursor-pointer"
                 />
-              </a>
+              </Link>
             </div>
 
             {/* Desktop Menu */}
