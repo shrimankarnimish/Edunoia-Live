@@ -11,7 +11,7 @@ import backgroundImage from "../../../public/Assets/images/thinking_banner.jpg";
 const page = () => {
   return (
     <div>
-      <section className="relative service-section w-full flex items-end mt-15">
+      <section className="relative service-section w-full flex items-end mt-15_old">
            {/* Background Image */}
            <div className="absolute inset-0 z-0">
              <Image
