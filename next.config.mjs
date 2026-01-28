@@ -1,27 +1,21 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   /* config options here */
-// };
+const redirects = require("./redirects");
 
-// export default nextConfig;
-
-/** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: "export",
-
-//   images: {
-//     unoptimized: true,
-//   },
-// };
-
-// export default nextConfig;
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
+  async redirects() {
+    return redirects.map(({ source, destination }) => ({
+      source,
+      destination,
+      permanent: true,
+    }));
+  },
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "edunoia.com",
+        pathname: "**",
+      },
+
+    ],
   },
 };
-
-export default nextConfig;
-
