@@ -168,11 +168,39 @@ function Footer() {
 
               {/* RIGHT BOTTOM */}
               <div className="flex gap-6">
-                <a href="https://www.facebook.com/TeamABND/">FACEBOOK</a>
-                <a href="https://www.linkedin.com/company/teamabnd/">LINKEDIN</a>
-                <a href="https://www.instagram.com/teamabnd/">INSTAGRAM</a>
-                <a href="https://x.com/teamabnd">X</a>
+                <a
+                  href="https://www.facebook.com/TeamABND/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  FACEBOOK
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/company/teamabnd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LINKEDIN
+                </a>
+
+                <a
+                  href="https://www.instagram.com/teamabnd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  INSTAGRAM
+                </a>
+
+                <a
+                  href="https://x.com/teamabnd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  X
+                </a>
               </div>
+
             </div>
 
           </div>
