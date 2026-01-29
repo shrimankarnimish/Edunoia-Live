@@ -29,10 +29,8 @@ export async function POST(request) {
     });
 
     await transporter.sendMail({
-      // from: `"Edunoia Enquiry" <${process.env.GMAIL_USER}>`,
-      from: `"Edunoia Enquiry" <${process.env.FROM_EMAIL}>`,
-      
-      to: ["nimish.shrimankar@riseit.in", "rahul.gupta@riseit.in"],
+      from: `"Edunoia Enquiry" <${process.env.GMAIL_USER}>`,
+      to: ["info@abnd.in", "info@riseit.com"],
       subject: `Contact form Enquiry from ${email}`,
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
       html: `
