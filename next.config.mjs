@@ -1,21 +1,8 @@
-const redirects = require("./redirects");
-
-module.exports = {
-  async redirects() {
-    return redirects.map(({ source, destination }) => ({
-      source,
-      destination,
-      permanent: true,
-    }));
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "edunoia.com",
-        pathname: "**",
-      },
-
-    ],
+    unoptimized: true,
   },
 };
+
+export default nextConfig;
