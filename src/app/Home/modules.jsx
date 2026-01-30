@@ -48,7 +48,7 @@ const TailoredModules = () => {
                 positioning, a resonant name, and polished brand assets.
               </p>
             </div>
-            <Link href="tailoredmodules/90-days-institution-launch">
+            <Link href="/tailoredmodules/90-days-institution-launch">
               <button className="cursor-pointer mt-4 sm:mt-6 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 text-left flex items-center uppercase tracking-wide">
                 View Details
                 <svg
